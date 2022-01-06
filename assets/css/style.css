@@ -10,14 +10,14 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to top,rgba(0,0,0,0.8), rgba(0,0,0,0.6)), url(./assets/images/autumn.jpg) no-repeat center/cover;
+    background: linear-gradient(to top,rgba(0,0,0,0.8), rgba(0,0,0,0.6)), url(./autumn.jpg) no-repeat center/cover;
 }
 
 .weather{
     width: 400px;
     border-radius: 10px;
     padding: 30px 20px;
-    background: url(./assets/images/autumn.jpg) no-repeat center/cover;
+    background: url(./autumn.jpg) no-repeat center/cover;
 }
 
 .search{
@@ -96,29 +96,29 @@ body{
 }
 
 .spring{
-    background: linear-gradient(to top,rgba(0,0,0,0.8), rgba(0,0,0,0.6)), url(./assets/images/spring.jpg) no-repeat center/cover;
+    background: linear-gradient(to top,rgba(0,0,0,0.8), rgba(0,0,0,0.6)), url(./spring.jpg) no-repeat center/cover;
 }
 .spring .weather{
-    background: url(./assets/images/spring.jpg) no-repeat center/cover;
+    background: url(./spring.jpg) no-repeat center/cover;
 }
 
 .autumn{
-    background: linear-gradient(to top,rgba(0,0,0,0.8), rgba(0,0,0,0.6)), url(./assets/images/autumn.jpg) no-repeat center/cover;
+    background: linear-gradient(to top,rgba(0,0,0,0.8), rgba(0,0,0,0.6)), url(./autumn.jpg) no-repeat center/cover;
 }
 .autumn .weather{
-    background: url(./assets/images/autumn.jpg) no-repeat center/cover;
+    background: url(./autumn.jpg) no-repeat center/cover;
 }
 
 .winter{
-    background: linear-gradient(to top,rgba(0,0,0,0.8), rgba(0,0,0,0.6)), url(./assets/images/winter.jpg) no-repeat center/cover;
+    background: linear-gradient(to top,rgba(0,0,0,0.8), rgba(0,0,0,0.6)), url(./winter.jpg) no-repeat center/cover;
 }
 .winter .weather{
-    background: url(./assets/images/winter.jpg) no-repeat center/cover;
+    background: url(./winter.jpg) no-repeat center/cover;
 }
 
 .summer{
-    background: linear-gradient(to top,rgba(0,0,0,0.8), rgba(0,0,0,0.6)), url(./assets/images/summer.jpg) no-repeat center/cover;
+    background: linear-gradient(to top,rgba(0,0,0,0.8), rgba(0,0,0,0.6)), url(./summer.jpg) no-repeat center/cover;
 }
 .summer .weather{
-    background: url(./assets/images/summer.jpg) no-repeat center/cover;
+    background: url(./summer.jpg) no-repeat center/cover;
 }
