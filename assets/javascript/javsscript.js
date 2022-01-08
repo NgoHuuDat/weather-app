@@ -23,7 +23,7 @@ async function changeWeatherIU(capitalSearch){
         let temp = Math.round((data.main.temp - 271.15))
         value.innerHTML = temp + '°C'
         shortDesc.innerHTML = data.weather[0] ? data.weather[0].main : ''
-        timer.innerHTML = new Date().toLocaleString('vi')
+        
 
         body.setAttribute('class','summer')
         if(temp <= 28){
@@ -39,6 +39,11 @@ async function changeWeatherIU(capitalSearch){
     else{
         container.classList.add('hide')
     }
+}
+
+function SetDate(){
+    setTimeout(SetDate(),1000)
+    timer.innerHTML = new Date().toLocaleString('vi')
 }
 
 search.addEventListener('keypress',function(e){
