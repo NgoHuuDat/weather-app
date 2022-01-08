@@ -42,8 +42,8 @@ async function changeWeatherIU(capitalSearch){
 }
 
 function SetDate(){
-    setTimeout(SetDate(),1000)
-    timer.innerHTML = new Date().toLocaleString('vi')
+    timer.innerHTML = new Date().toLocaleString('vi');
+    setTimeout("SetDate()",1000);
 }
 
 search.addEventListener('keypress',function(e){
@@ -53,4 +53,5 @@ search.addEventListener('keypress',function(e){
     }
 })
 
-changeWeatherIU('Hanoi')
+changeWeatherIU('Hanoi');
+SetDate();
